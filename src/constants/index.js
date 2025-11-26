@@ -125,10 +125,10 @@ const technologies = [
     name: "Express Js",
     icon: express,
   },
-  // {
-  //   name: "AWS",
-  //   icon: aws,
-  // },
+  {
+    name: "AWS",
+    icon: aws,
+  },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -219,50 +219,54 @@ const projects = [
     source_code_link: "https://github.com/santoshpadhiali/CHAT-APP",
   },
   {
-    name: "BOOK stor",
+    name: "FOODREEL",
     description:
-      "A full-stack online book store application developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). Features include browsing and searching books by category or author, secure user authentication with JWT, shopping cart management, order placement, and an admin dashboard for inventory and sales management. Fully responsive design for a smooth experience across devices.",
+    "A full-stack food ordering web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The platform allows users to browse restaurants and food items by categories, cuisines, or search instantly. Includes secure user authentication with JWT, add-to-cart and checkout functionality, live order tracking, integrated online payment, and order history. The admin dashboard enables restaurant/food management, order monitoring, and analytics for sales performance. Fully responsive UI for seamless experience across mobile and desktop devices, with optimized performance and real-time updates using Socket.io.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "cleark",
+        name: "nodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "white-text-gradient",
+      },
+    ],
+    image: gearXpert,
+    source_code_link: "https://github.com/santoshpadhiali/Foodinsta",
+  },
+  {
+    name: "Ai Resume Builder",
+    description:
+    "An intelligent resume-building web application developed using the MERN stack (MongoDB, Express.js, React.js, Node.js) integrated with Generative AI. The platform guides users to create professional, ATS-friendly resumes based on their skills, education, and job role. Offers multiple modern templates, real-time content suggestions, grammar enhancement, keyword optimization, and auto-formatting. Secure user authentication with JWT, cloud storage for resume data, and export options in PDF. Fully responsive and user-friendly interface tailored for both students and professionals.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Google gemini 1.5",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Cleark",
         color: "green-text-gradient",
       },
       {
         name: "Strapi",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gearXpert,
-    source_code_link: "https://github.com/santoshpadhiali/BOOK-STORE",
-  },
-  {
-    name: "Task traker",
-    description:
-      "A task management application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that allows users to add, edit, mark as complete, and delete tasks. Features include secure user authentication with JWT, persistent data storage, and a clean, responsive UI for seamless task tracking across devices.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
         color: "green-text-gradient",
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/santoshpadhiali/TODO-LIST",
+    source_code_link: "https://github.com/santoshpadhiali/Ai-resume-Billder",
   },
 ];
 
