@@ -195,7 +195,7 @@ const projects = [
   {
     name: "Chat APP",
     description:
-      "A full-stack real-time chat application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and Socket.io for instant communication. Includes private and group chats, image sharing via Cloudinary, JWT-based authentication, user profile management, and a fully responsive UI for seamless use across devices.",
+      "A scalable full-stack job portal platform (HireHub) developed using the MERN stack (MongoDB, Express.js, React.js, Node.js), designed to simplify and modernize the job search and recruitment workflow. The application allows job seekers to explore opportunities, apply seamlessly, and track their application status, while recruiters can post jobs, manage listings, and evaluate candidates efficiently. It features secure JWT-based authentication, role-based access control, advanced job search and filtering mechanisms, and a dynamic application management dashboard. The platform leverages RESTful APIs for efficient data handling, integrates cloud-based media services for file management, and delivers a fully responsive, intuitive user interface built with React.js and Tailwind CSS, ensuring a seamless experience across devices.",
     tags: [
       {
         name: "react",
@@ -216,7 +216,7 @@ const projects = [
 
     ],
     image: project2,
-    source_code_link: "https://github.com/santoshpadhiali/CHAT-APP",
+    source_code_link: "https://github.com/santoshpadhiali/CHATliFY",
   },
   {
     name: "FOODREEL",
@@ -244,29 +244,29 @@ const projects = [
     source_code_link: "https://github.com/santoshpadhiali/Foodinsta",
   },
   {
-    name: "Ai Resume Builder",
+    name: "JOB PORTAL PLATFORM",
     description:
-    "An intelligent resume-building web application developed using the MERN stack (MongoDB, Express.js, React.js, Node.js) integrated with Generative AI. The platform guides users to create professional, ATS-friendly resumes based on their skills, education, and job role. Offers multiple modern templates, real-time content suggestions, grammar enhancement, keyword optimization, and auto-formatting. Secure user authentication with JWT, cloud storage for resume data, and export options in PDF. Fully responsive and user-friendly interface tailored for both students and professionals.",
-    tags: [
+"A full-stack job portal web application (HireHub) built using the MERN stack (MongoDB, Express.js, React.js, Node.js), designed to streamline the job search and recruitment process. The platform enables users to explore job opportunities, apply seamlessly, and track application status, while recruiters can post jobs and manage candidates efficiently. Features include secure JWT-based authentication, role-based access for job seekers and recruiters, advanced job search and filtering, and a dynamic application dashboard. The system is supported by scalable RESTful APIs, cloud-based media handling, and a fully responsive, modern UI built with React.js and Tailwind CSS, ensuring an intuitive and user-friendly experience across devices." ,
+   tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "Google gemini 1.5",
+        name: "Node js",
         color: "white-text-gradient",
       },
       {
-        name: "Cleark",
+        name: "Express js ",
         color: "green-text-gradient",
       },
       {
-        name: "Strapi",
+        name: "JWT ",
         color: "green-text-gradient",
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/santoshpadhiali/Ai-resume-Billder",
+    source_code_link: "https://github.com/santoshpadhiali/Hire-HUB",
   },
 ];
 
