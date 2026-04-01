@@ -213,6 +213,10 @@ const projects = [
         name: "mongodb",
         color: "green-text-gradient",
       },
+      {
+        name: "Socket.IO",
+        color: "green-text-gradient",
+      },
 
     ],
     image: project2,
